@@ -11,7 +11,7 @@ A derivative of the "[Programmer Dvorak Keyboard Layout](https://www.kaufmann.no
 
 ### Key features and differences
 
-It retains most of the origin Programmer Dvorak layout and mostly only modify the top symbols/numbers row.
+It retains most of the original Programmer Dvorak layout and mostly only modify the top symbols/numbers row.
 
 - Moves the dollar sign to a "strong" finger. This is because it is a prominent characters in PHP and other languages, so having it on the pinky finger is not comfortable.
 - Make brackets/parenthesis open and close symetrically on the same fingers. I do appreciate the rationale from https://www.kaufmann.no/roland/dvorak/#brackets, but the intuitiveness of having them on the same fingers outweights this IMO. Also, most IDEs would help closing "empty" brackets anyway.
