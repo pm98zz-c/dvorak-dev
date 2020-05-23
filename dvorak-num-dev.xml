@@ -1,0 +1,6 @@
+        <variant>
+          <configItem>
+            <name>dvorak-num-dev</name>
+            <description>English (developer Dvorak - NUM only)</description>
+          </configItem>
+        </variant>

@@ -1,0 +1,69 @@
+/////////////////////////////// dvorak-dev START
+//
+// Developer Dvorak layout.
+//
+// Author: Pascal Morin <pm98zz.c@gmail.com>
+// Source: github
+// 
+// Based on the programmer Dvorak layout, by Roland Kaufmann.
+// http://www.kaufmann.no/roland/dvorak/license.html
+//
+///////////////////////////////
+partial alphanumeric_keys 
+xkb_symbols "dvorak-dev" {
+    name[Group1] = "English (developer Dvorak)";
+    key.type[Group1]="EIGHT_LEVEL";
+    
+    key <AB01> {[                apostrophe,            quotedbl,              dead_acute,            NoSymbol,              comma,                 comma                ]};
+    key <AB02> {[                q,                     Q,                     aacute,                Aacute,                3,                     3                    ]};
+    key <AB03> {[                j,                     J,                     igrave,                Igrave,                2,                     2                    ]};
+    key <AB04> {[                k,                     K,                     iacute,                Iacute,                1,                     1                    ]};
+    key <AB05> {[                x,                     X,                     idiaeresis,            Idiaeresis,            minus,                 minus                ]};
+    key <AB06> {[                b,                     B,                     ediaeresis,            Ediaeresis,            minus,                 minus                ]};
+    key <AB07> {[                m,                     M,                     uacute,                Uacute,                1,                     1                    ]};
+    key <AB08> {[                w,                     W,                     yacute,                Yacute,                2,                     2                    ]};
+    key <AB09> {[                v,                     V,                     ydiaeresis,            Ydiaeresis,            3,                     3                    ]};
+    key <AB10> {[                z,                     Z,                     U0133,                 U0132,                 comma,                 comma                ]};
+    key <AC01> {[                a,                     A,                     agrave,                Agrave,                period,                period               ]};
+    key <AC02> {[                o,                     O,                     oslash,                Ooblique,              6,                     6                    ]};
+    key <AC03> {[                e,                     E,                     eacute,                Eacute,                5,                     5                    ]};
+    key <AC04> {[                u,                     U,                     egrave,                Egrave,                4,                     4                    ]};
+    key <AC05> {[                i,                     I,                     aring,                 Aring,                 plus,                  plus                 ]};
+    key <AC06> {[                d,                     D,                     eth,                   ETH,                   plus,                  plus                 ]};
+    key <AC07> {[                h,                     H,                     ugrave,                Ugrave,                4,                     4                    ]};
+    key <AC08> {[                t,                     T,                     thorn,                 THORN,                 5,                     5                    ]};
+    key <AC09> {[                n,                     N,                     ntilde,                Ntilde,                6,                     6                    ]};
+    key <AC10> {[                s,                     S,                     ssharp,                U1E9E,                 period,                period               ]};
+    key <AC11> {[                minus,                 underscore,            hyphen,                endash,                NoSymbol,              NoSymbol             ]};
+    key <AD01> {[                semicolon,             colon,                 dead_diaeresis,        NoSymbol,              percent,               percent              ]};
+    key <AD02> {[                comma,                 less,                  guillemotleft,         U201C,                 9,                     9                    ]};
+    key <AD03> {[                period,                greater,               guillemotright,        U201D,                 8,                     8                    ]};
+    key <AD04> {[                p,                     P,                     paragraph,             section,               7,                     7                    ]};
+    key <AD05> {[                y,                     Y,                     udiaeresis,            Udiaeresis,            slash,                 division             ]};
+    key <AD06> {[                f,                     F,                     ae,                    AE,                    slash,                 division             ]};
+    key <AD07> {[                g,                     G,                     oe,                    OE,                    7,                     7                    ]};
+    key <AD08> {[                c,                     C,                     ccedilla,              Ccedilla,              8,                     8                    ]};
+    key <AD09> {[                r,                     R,                     registered,            trademark,             9,                     9                    ]};
+    key <AD10> {[                l,                     L,                     copyright,             numerosign,            percent,               percent              ]};
+    key <AD11> {[                slash,                 question,              questiondown,          NoSymbol,              NoSymbol,              NoSymbol             ]};
+    key <AD12> {[                at,                    asciicircum,           dead_circumflex,       dead_caron,            NoSymbol,              NoSymbol             ]};
+    key <AE01> {[                ampersand,             percent,               NoSymbol,              NoSymbol,              NoSymbol,              NoSymbol             ]};
+    key <AE02> {[                braceleft,             9,                     currency,              NoSymbol,              NoSymbol,              NoSymbol             ]};
+    key <AE03> {[                bracketleft,           7,                     cent,                  NoSymbol,              parenleft,             parenleft            ]};
+    key <AE04> {[                parenleft,             5,                     yen,                   NoSymbol,              parenright,            parenright           ]};
+    key <AE05> {[                dollar,                3,                     EuroSign,              NoSymbol,              asterisk,              multiply             ]};
+    key <AE06> {[                equal,                 1,                     sterling,              NoSymbol,              equal,                 equal                ]};
+    key <AE07> {[                asterisk,              0,                     NoSymbol,              NoSymbol,              asterisk,              multiply             ]};
+    key <AE08> {[                exclam,                2,                     exclamdown,            U00b2,                 parenleft,             parenleft            ]};
+    key <AE09> {[                parenright,            4,                     onehalf,               NoSymbol,              parenright,            parenright           ]};
+    key <AE10> {[                bracketright,          6,                     NoSymbol,              NoSymbol,              NoSymbol,              NoSymbol             ]};
+    key <AE11> {[                braceright,            8,                     NoSymbol,              NoSymbol,              NoSymbol,              NoSymbol             ]};
+    key <AE12> {[                numbersign,            grave,                 dead_grave,            NoSymbol,              NoSymbol,              NoSymbol             ]};
+    key <BKSL> {[                backslash,             bar,                   acute,                 dead_acute,            NoSymbol,              NoSymbol             ]};
+    key <BKSP> {[                BackSpace,             BackSpace,             NoSymbol,              NoSymbol,              NoSymbol,              NoSymbol             ]};
+    key <SPCE> {[                space,                 space,                 nobreakspace,          U202F,                 0,                     0                    ]};
+    key <TLDE> {[                plus,                  asciitilde,            dead_tilde,            NoSymbol,              NoSymbol,              NoSymbol             ]};
+
+    include "level5(modifier_mapping)"
+
+};
