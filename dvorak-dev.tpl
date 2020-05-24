@@ -18,6 +18,9 @@ xkb_symbols "dvorak-dev" {
 /////////////////////////////// MATRIX
 
     include "level5(modifier_mapping)"
+    include "level3(ralt_switch)"
+    include "level5(caps_switch)"
+    include "shift(both_shiftlock)"
 
 };
 /////////////////////////////// dvorak-dev END

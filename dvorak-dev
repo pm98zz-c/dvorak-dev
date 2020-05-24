@@ -1,3 +1,4 @@
+
 /////////////////////////////// dvorak-dev START
 //
 // Developer Dvorak layout.
@@ -6,7 +7,7 @@
 // Source: github
 // 
 // Based on the programmer Dvorak layout, by Roland Kaufmann.
-// http://www.kaufmann.no/roland/dvorak/license.html
+// http://www.kaufmann.no/roland/dvorak/
 //
 ///////////////////////////////
 partial alphanumeric_keys 
@@ -65,5 +66,10 @@ xkb_symbols "dvorak-dev" {
     key <TLDE> {[                plus,                  asciitilde,            dead_tilde,            NoSymbol,              NoSymbol,              NoSymbol             ]};
 
     include "level5(modifier_mapping)"
+    include "level3(ralt_switch)"
+    include "level5(caps_switch)"
+    include "shift(both_shiftlock)"
 
 };
+/////////////////////////////// dvorak-dev END
+
