@@ -11,6 +11,7 @@
 ///////////////////////////////
 partial alphanumeric_keys 
 xkb_symbols "dvorak-num-dev" {
+    include "us(dvorak-dev)"
     name[Group1] = "English (developer Dvorak - NUM only)";
     
 /////////////////////////////// MATRIX

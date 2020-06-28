@@ -1,0 +1,69 @@
+
+
+/////////////////////////////// dvorak-num-dev START
+//
+// Developer Dvorak layout. Numeric only companion.
+//
+// Author: Pascal Morin <pm98zz.c@gmail.com>
+// Source: github
+// 
+//
+///////////////////////////////
+partial alphanumeric_keys 
+xkb_symbols "dvorak-num-dev" {
+    include "us(dvorak-dev)"
+    name[Group1] = "English (developer Dvorak - NUM only)";
+    
+    key <AB01> {[                comma,               comma           ]};
+    key <AB02> {[                    3,                   3           ]};
+    key <AB03> {[                    2,                   2           ]};
+    key <AB04> {[                    1,                   1           ]};
+    key <AB05> {[                U002D,               U002D           ]};
+    key <AB06> {[                U002D,               U002D           ]};
+    key <AB07> {[                    1,                   1           ]};
+    key <AB08> {[                    2,                   2           ]};
+    key <AB09> {[                    3,                   3           ]};
+    key <AB10> {[                comma,               comma           ]};
+    key <AC01> {[                U002E,               U002E           ]};
+    key <AC02> {[                    6,                   6           ]};
+    key <AC03> {[                    5,                   5           ]};
+    key <AC04> {[                    4,                   4           ]};
+    key <AC05> {[                U002B,               U002B           ]};
+    key <AC06> {[                U002B,               U002B           ]};
+    key <AC07> {[                    4,                   4           ]};
+    key <AC08> {[                    5,                   5           ]};
+    key <AC09> {[                    6,                   6           ]};
+    key <AC10> {[                U002E,               U002E           ]};
+    key <AC11> {[                                                     ]};
+    key <AD01> {[                U0025,               U0025           ]};
+    key <AD02> {[                    9,                   9           ]};
+    key <AD03> {[                    8,                   8           ]};
+    key <AD04> {[                    7,                   7           ]};
+    key <AD05> {[                U002F,               U00F7           ]};
+    key <AD06> {[                U002F,               U00F7           ]};
+    key <AD07> {[                    7,                   7           ]};
+    key <AD08> {[                    8,                   8           ]};
+    key <AD09> {[                    9,                   9           ]};
+    key <AD10> {[                U0025,               U0025           ]};
+    key <AD11> {[                                                     ]};
+    key <AD12> {[                                                     ]};
+    key <AE01> {[                                                     ]};
+    key <AE02> {[                                                     ]};
+    key <AE03> {[                U0028,               U0028           ]};
+    key <AE04> {[                U0029,               U0029           ]};
+    key <AE05> {[                U002A,               U00D7           ]};
+    key <AE06> {[                U003D,               U003D           ]};
+    key <AE07> {[                U002A,               U00D7           ]};
+    key <AE08> {[                U0028,               U0028           ]};
+    key <AE09> {[                U0029,               U0029           ]};
+    key <AE10> {[                                                     ]};
+    key <AE11> {[                                                     ]};
+    key <AE12> {[                                                     ]};
+    key <BKSL> {[                                                     ]};
+    key <BKSP> {[                                                     ]};
+    key <SPCE> {[                    0,                   0           ]};
+    key <TLDE> {[                                                     ]};
+
+};
+/////////////////////////////// dvorak-num-dev END
+

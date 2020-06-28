@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
+<keyboard group="126" id="-6456" name="Developer Dvorak" maxout="1">
+  <layouts>
+		<layout first="0"   last="6"   modifiers="modifiers" mapSet="ANSI" />
+		<layout first="7"   last="9"   modifiers="modifiers" mapSet="ISO"  />
+		<layout first="10"  last="10"  modifiers="modifiers" mapSet="ANSI" />
+		<layout first="11"  last="11"  modifiers="modifiers" mapSet="ISO"  />
+		<layout first="12"  last="12"  modifiers="modifiers" mapSet="ANSI" />
+		<layout first="13"  last="13"  modifiers="modifiers" mapSet="ISO"  />
+		<layout first="14"  last="15"  modifiers="modifiers" mapSet="ANSI" />
+		<layout first="16"  last="16"  modifiers="modifiers" mapSet="ISO"  />
+		<layout first="17"  last="17"  modifiers="modifiers" mapSet="JIS"  />
+		<layout first="18"  last="19"  modifiers="modifiers" mapSet="ANSI" />
+		<layout first="20"  last="20"  modifiers="modifiers" mapSet="ISO"  />
+		<layout first="21"  last="21"  modifiers="modifiers" mapSet="JIS"  />
+		<layout first="22"  last="28"  modifiers="modifiers" mapSet="ANSI" />
+		<layout first="29"  last="29"  modifiers="modifiers" mapSet="ISO"  />
+		<layout first="30"  last="30"  modifiers="modifiers" mapSet="JIS"  />
+		<layout first="31"  last="31"  modifiers="modifiers" mapSet="ANSI" />
+		<layout first="32"  last="32"  modifiers="modifiers" mapSet="ISO"  />
+		<layout first="33"  last="33"  modifiers="modifiers" mapSet="JIS"  />
+		<layout first="34"  last="34"  modifiers="modifiers" mapSet="ANSI" />
+		<layout first="35"  last="35"  modifiers="modifiers" mapSet="ISO"  />
+		<layout first="36"  last="36"  modifiers="modifiers" mapSet="JIS"  />
+		<layout first="37"  last="37"  modifiers="modifiers" mapSet="ANSI" />
+		<layout first="38"  last="38"  modifiers="modifiers" mapSet="ISO"  />
+		<layout first="39"  last="39"  modifiers="modifiers" mapSet="JIS"  />
+		<layout first="40"  last="40"  modifiers="modifiers" mapSet="ANSI" />
+		<layout first="41"  last="41"  modifiers="modifiers" mapSet="ISO"  />
+		<layout first="42"  last="42"  modifiers="modifiers" mapSet="JIS"  />
+		<layout first="43"  last="44"  modifiers="modifiers" mapSet="ISO"  />
+		<layout first="194" last="194" modifiers="modifiers" mapSet="JIS"  />
+		<layout first="195" last="195" modifiers="modifiers" mapSet="ANSI" />
+		<layout first="196" last="196" modifiers="modifiers" mapSet="ISO"  />
+		<layout first="197" last="197" modifiers="modifiers" mapSet="JIS"  />
+		<layout first="198" last="198" modifiers="modifiers" mapSet="ANSI" />
+		<layout first="199" last="199" modifiers="modifiers" mapSet="ISO"  />
+		<layout first="200" last="201" modifiers="modifiers" mapSet="JIS"  />
+		<layout first="202" last="202" modifiers="modifiers" mapSet="ANSI" />
+		<layout first="203" last="203" modifiers="modifiers" mapSet="ISO"  />
+		<layout first="204" last="204" modifiers="modifiers" mapSet="ANSI" />
+		<layout first="205" last="205" modifiers="modifiers" mapSet="ISO"  />
+		<layout first="206" last="207" modifiers="modifiers" mapSet="JIS"  />
+  </layouts>
+  <modifierMap id="modifiers" defaultIndex="0">
+		<!-- no modifiers -->
+		<keyMapSelect mapIndex="0">
+			<modifier keys="" />
+			<modifier keys="command anyShift? caps?" />
+		</keyMapSelect>
+		<!-- shift -->
+		<keyMapSelect mapIndex="1">
+			<modifier keys="anyShift" />
+		</keyMapSelect>
+		<keyMapSelect mapIndex="2">
+			<modifier keys="caps" />
+		</keyMapSelect>
+		<keyMapSelect mapIndex="3">
+			<modifier keys="anyShift caps" />
+		</keyMapSelect>
+		<!-- option -->
+		<keyMapSelect mapIndex="4">
+			<modifier keys="anyOption" />
+			<modifier keys="anyOption anyShift caps" />
+			<modifier keys="anyOption command anyShift? caps?" />
+		</keyMapSelect>
+		<!-- option + shift -->
+		<keyMapSelect mapIndex="5">
+			<modifier keys="anyOption anyShift" />
+		</keyMapSelect>
+		<keyMapSelect mapIndex="6">
+			<modifier keys="anyOption caps" />
+		</keyMapSelect>
+		<!-- control + anything but command -->
+		<keyMapSelect mapIndex="7">
+			<modifier keys="anyControl anyShift? caps? anyOption?" />
+		</keyMapSelect>
+  </modifierMap>
+  <keyMapSet id="ANSI">
+		<!-- /////////////////////////////// MATRIX -->
+  </keyMapSet>
+  <keyMapSet id="ISO">
+	<keyMap index="0" baseMapSet="ANSI" baseIndex="0">
+	  <key code="10"  output="&#x24;"/>
+	  <key code="50"  action="compose"/>
+	  <key code="94"  action="compose"/>	<!-- ABNT kbds only -->
+	</keyMap>
+	<keyMap index="1" baseMapSet="ANSI" baseIndex="1">
+	  <key code="10"  action="tilde"/>
+	  <key code="50"  action="compose"/>
+	  <key code="94"  action="compose"/>	<!-- ABNT kbds only -->
+	</keyMap>
+	<keyMap index="2" baseMapSet="ANSI" baseIndex="2">
+	  <key code="10"  output="&#x24;"/>
+	  <key code="50"  action="compose"/>
+	  <key code="94"  action="compose"/>	<!-- ABNT kbds only -->
+	</keyMap>
+	<keyMap index="3" baseMapSet="ANSI" baseIndex="3">
+	  <key code="10"  action="tilde"/>
+	  <key code="50"  action="compose"/>
+	  <key code="94"  action="compose"/>	<!-- ABNT kbds only -->
+	</keyMap>
+	<keyMap index="4" baseMapSet="ANSI" baseIndex="4">
+	  <key code="10"  action="nasal"/>
+	  <key code="50"  action="compose"/>
+	  <key code="94"  action="compose"/>	<!-- ABNT kbds only -->
+	</keyMap>
+	<keyMap index="5" baseMapSet="ANSI" baseIndex="5">
+	  <key code="10"  action="nasal"/>
+	  <key code="50"  action="compose"/>
+	  <key code="94"  action="compose"/>	<!-- ABNT kbds only -->
+	</keyMap>
+	<keyMap index="6" baseMapSet="ANSI" baseIndex="6">
+	  <key code="10"  action="nasal"/>
+	  <key code="50"  action="compose"/>
+	  <key code="94"  action="compose"/>	<!-- ABNT kbds only -->
+	</keyMap>
+	<keyMap index="7" baseMapSet="ANSI" baseIndex="7">
+	  <key code="10"  output="&#x24;"/>
+	  <key code="50"  action="compose"/>
+	  <key code="94"  action="compose"/>	<!-- ABNT kbds only -->
+	</keyMap>
+  </keyMapSet>
+  <keyMapSet id="JIS">
+	<keyMap index="0" baseMapSet="ANSI" baseIndex="0">
+	  <key code="93"  output=""/>			<!-- Yen 			-->
+	  <key code="94"  output=""/>			<!-- Underscore 	-->
+	  <key code="95"  output=""/>			<!-- Keypad Comma 	-->
+	  <key code="102" output=""/>			<!-- Switch to Eisu -->
+	  <key code="104" output=""/>			<!-- Switch to Kana -->
+	</keyMap>
+	<keyMap index="1" baseMapSet="ANSI" baseIndex="1">
+	  <key code="93"  output=""/>			<!-- Yen 			-->
+	  <key code="94"  output=""/>			<!-- Underscore 	-->
+	  <key code="95"  output=""/>			<!-- Keypad Comma 	-->
+	  <key code="102" output=""/>			<!-- Switch to Eisu -->
+	  <key code="104" output=""/>			<!-- Switch to Kana -->
+	</keyMap>
+	<keyMap index="2" baseMapSet="ANSI" baseIndex="2">
+	  <key code="93"  output=""/>			<!-- Yen 			-->
+	  <key code="94"  output=""/>			<!-- Underscore 	-->
+	  <key code="95"  output=""/>			<!-- Keypad Comma 	-->
+	  <key code="102" output=""/>			<!-- Switch to Eisu -->
+	  <key code="104" output=""/>			<!-- Switch to Kana -->
+	</keyMap>
+	<keyMap index="3" baseMapSet="ANSI" baseIndex="3">
+	  <key code="93"  output=""/>			<!-- Yen 			-->
+	  <key code="94"  output=""/>			<!-- Underscore 	-->
+	  <key code="95"  output=""/>			<!-- Keypad Comma 	-->
+	  <key code="102" output=""/>			<!-- Switch to Eisu -->
+	  <key code="104" output=""/>			<!-- Switch to Kana -->
+	</keyMap>
+	<keyMap index="4" baseMapSet="ANSI" baseIndex="4">
+	  <key code="93"  output=""/>			<!-- Yen 			-->
+	  <key code="94"  output=""/>			<!-- Underscore 	-->
+	  <key code="95"  output=""/>			<!-- Keypad Comma 	-->
+	  <key code="102" output=""/>			<!-- Switch to Eisu -->
+	  <key code="104" output=""/>			<!-- Switch to Kana -->
+	</keyMap>
+	<keyMap index="5" baseMapSet="ANSI" baseIndex="5">
+	  <key code="93"  output=""/>			<!-- Yen 			-->
+	  <key code="94"  output=""/>			<!-- Underscore 	-->
+	  <key code="95"  output=""/>			<!-- Keypad Comma 	-->
+	  <key code="102" output=""/>			<!-- Switch to Eisu -->
+	  <key code="104" output=""/>			<!-- Switch to Kana -->
+	</keyMap>
+	<keyMap index="6" baseMapSet="ANSI" baseIndex="6">
+	  <key code="93"  output=""/>			<!-- Yen 			-->
+	  <key code="94"  output=""/>			<!-- Underscore 	-->
+	  <key code="95"  output=""/>			<!-- Keypad Comma 	-->
+	  <key code="102" output=""/>			<!-- Switch to Eisu -->
+	  <key code="104" output=""/>			<!-- Switch to Kana -->
+	</keyMap>
+	<keyMap index="7" baseMapSet="ANSI" baseIndex="7">
+	  <key code="93"  output=""/>			<!-- Yen 			-->
+	  <key code="94"  output=""/>			<!-- Underscore 	-->
+	  <key code="95"  output=""/>			<!-- Keypad Comma 	-->
+	  <key code="102" output=""/>			<!-- Switch to Eisu -->
+	  <key code="104" output=""/>			<!-- Switch to Kana -->
+	</keyMap>
+  </keyMapSet>
+  <actions>
+	<action id="compose">
+	  <when state="none" 		next="compose" />
+	</action>
+	<action id="backquote">
+	  <when state="none" 		output="`" />
+	  <when state="compose" 	next="grave" />
+	</action>
+	<action id="apostrophe">
+	  <when state="none" 		output="'" />
+	  <when state="compose" 	next="acute" />
+	  <when state="less"		output="&#x2018;" />
+	  <when state="greater"		output="&#x2019;" />
+	</action>
+	<action id="caret">
+	  <when state="none" 		output="^" />
+	  <when state="compose" 	next="circum" />
+	</action>
+	<action id="tilde">
+	  <when state="none" 		output="~" />
+	  <when state="compose" 	next="nasal" />
+	</action>
+	<action id="quote">
+	  <when state="none" 		output="&#x22;" />
+	  <when state="compose" 	next="diaeresis" />
+	  <when state="less"		output="&#x201C;" />
+	  <when state="greater"		output="&#x201D;" />
+	</action>
+	<action id="comma">
+	  <when state="none" 		output="," />
+	  <when state="compose" 	next="cedilla" />
+	</action>
+	<action id="dash">
+	  <when state="none" 		output="-" />
+	  <when state="compose" 	next="macron" />
+	  <when state="dot"         output="&#xB7;" />
+	</action>
+	<action id="asterisk">
+	  <when state="none" 		output="*" />
+	  <when state="compose" 	next="ring" />
+	</action>
+	<action id="slash">
+	  <when state="none" 		output="/" />
+	  <when state="compose" 	next="stroke" />
+	</action>
+	<action id="lparen">
+	  <when state="none" 		output="(" />
+	  <when state="compose" 	next="breve" />
+	</action>
+	<action id="period">
+	  <when state="none" 		output="." />
+	  <when state="compose" 	next="dot" />
+	  <when state="dot"         output="&#x2026;" />
+	</action>
+	<action id="at">
+	  <when state="none" 		output="@" />
+	  <when state="compose" 	next="alig" />
+	</action>
+	<action id="colon">
+	  <when state="none" 		output=":" />
+	  <when state="compose" 	next="diaeresis" />
+	</action>
+	<action id="semi">
+	  <when state="none" 		output=";" />
+	  <when state="compose" 	next="diaeresis" />
+	</action>
+	<action id="A">
+	  <when state="none" 		output="A" />
+	  <when state="compose"		next="alig" />
+	  <when state="grave" 		output="&#xC0;" />
+	  <when state="acute" 		output="&#xC1;" />
+	  <when state="circum" 		output="&#xC2;" />
+	  <when state="nasal" 		output="&#xC3;" />
+	  <when state="diaeresis" 	output="&#xC4;" />
+	  <when state="macron"		output="&#x0100;" />
+	  <when state="ring"		output="&#xC5;" />
+	  <when state="alig"		output="&#xC5;" />
+	</action>
+	<action id="E">
+	  <when state="none" 		output="E" />
+	  <when state="grave" 		output="&#xC8;" />
+	  <when state="acute" 		output="&#xC9;" />
+	  <when state="circum" 		output="&#xCA;" />
+	  <when state="diaeresis" 	output="&#xCB;" />
+	  <when state="alig"		output="&#xC6;" />
+	</action>
+	<action id="I">
+	  <when state="none" 		output="I" />
+	  <when state="grave" 		output="&#xCC;" />
+	  <when state="acute" 		output="&#xCD;" />
+	  <when state="circum" 		output="&#xCE;" />
+	  <when state="diaeresis" 	output="&#xCF;" />
+	</action>
+	<action id="O">
+	  <when state="none" 		output="O" />
+	  <when state="compose"		next="ring" />
+	  <when state="grave" 		output="&#xD2;" />
+	  <when state="acute" 		output="&#xD3;" />
+	  <when state="circum" 		output="&#xD4;" />
+	  <when state="nasal" 		output="&#xD5;" />
+	  <when state="diaeresis" 	output="&#xD6;" />
+	  <when state="stroke"		output="&#xD8;" />
+	  <when state="caron"       output="&#xA9;" />
+	</action>
+	<action id="U">
+	  <when state="none" 		output="U" />
+	  <when state="grave" 		output="&#xD9;" />
+	  <when state="acute" 		output="&#xDA;" />
+	  <when state="circum" 		output="&#xDB;" />
+	  <when state="diaeresis" 	output="&#xDC;" />
+	</action>
+	<action id="a">
+	  <when state="none" 		output="a" />
+	  <when state="compose"		next="alig" />
+	  <when state="grave" 		output="&#xE0;" />
+	  <when state="acute" 		output="&#xE1;" />
+	  <when state="circum" 		output="&#xE2;" />
+	  <when state="nasal" 		output="&#xE3;" />
+	  <when state="diaeresis" 	output="&#xE4;" />
+	  <when state="macron"		output="&#x0101;" />
+	  <when state="ring"		output="&#xE5;" />
+	  <when state="alig"		output="&#xE5;" />
+	</action>
+	<action id="e">
+	  <when state="none" 		output="e" />
+	  <when state="grave" 		output="&#xE8;" />
+	  <when state="acute" 		output="&#xE9;" />
+	  <when state="circum" 		output="&#xEA;" />
+	  <when state="diaeresis" 	output="&#xEB;" />
+	  <when state="alig"		output="&#xE6;" />
+	</action>
+	<action id="i">
+	  <when state="none" 		output="i" />
+	  <when state="grave" 		output="&#xEC;" />
+	  <when state="acute" 		output="&#xED;" />
+	  <when state="circum" 		output="&#xEE;" />
+	  <when state="diaeresis" 	output="&#xEF;" />
+	</action>
+	<action id="o">
+	  <when state="none" 		output="o" />
+	  <when state="compose"		next="ring" />
+	  <when state="grave" 		output="&#xF2;" />
+	  <when state="acute" 		output="&#xF3;" />
+	  <when state="circum" 		output="&#xF4;" />
+	  <when state="nasal" 		output="&#xF5;" />
+	  <when state="diaeresis" 	output="&#xF6;" />
+	  <when state="stroke"		output="&#xF8;" />
+	  <when state="caron"       output="&#xA9;" />
+	</action>
+	<action id="u">
+	  <when state="none" 		output="u" />
+	  <when state="grave" 		output="&#xF9;" />
+	  <when state="acute" 		output="&#xFA;" />
+	  <when state="circum" 		output="&#xFB;" />
+	  <when state="diaeresis" 	output="&#xFC;" />
+	</action>
+	<action id="Y">
+	  <when state="none" 		output="Y" />
+	  <when state="acute" 		output="&#xDD;" />
+	</action>
+	<action id="y">
+	  <when state="none" 		output="y" />
+	  <when state="acute" 		output="&#xFD;" />
+	  <when state="diaeresis" 	output="&#xFF;" />
+	</action>
+	<action id="C">
+	  <when state="none" 		output="C" />
+	  <when state="compose"		next="caron" />
+	  <when state="cedilla" 	output="&#xC7;" />
+	</action>
+	<action id="c">
+	  <when state="none" 		output="c" />
+	  <when state="compose"		next="caron" />
+	  <when state="cedilla" 	output="&#xE7;" />
+	</action>
+	<action id="N">
+	  <when state="none" 		output="N" />
+	  <when state="nasal" 		output="&#xD1;" />
+	</action>
+	<action id="n">
+	  <when state="none" 		output="n" />
+	  <when state="nasal" 		output="&#xF1;" />
+	</action>
+	<action id="G">
+	  <when state="none" 		output="G" />
+	</action>
+	<action id="g">
+	  <when state="none" 		output="g" />
+	</action>
+	<action id="K">
+	  <when state="none" 		output="K" />
+	</action>
+	<action id="k">
+	  <when state="none" 		output="k" />
+	</action>
+	<action id="l">
+	  <when state="none" 		output="l" />
+	</action>
+	<action id="L">
+	  <when state="none" 		output="L" />
+	</action>
+	<action id="S">
+	  <when state="none" 		output="S" />
+	  <when state="compose"		next="ssharp" />
+	  <when state="dot"			output="&#x0218;" />
+	</action>
+	<action id="s">
+	  <when state="none" 		output="s" />
+	  <when state="compose"		next="ssharp" />
+	  <when state="dot"			output="&#x0219;" />
+	</action>
+	<action id="T">
+	  <when state="none" 		output="T" />
+	  <when state="compose"		next="thorn" />
+	  <when state="dot"			output="&#x021A;" />
+	</action>
+	<action id="t">
+	  <when state="none" 		output="t" />
+	  <when state="compose"		next="thorn" />
+	  <when state="dot"			output="&#x021B;" />
+	</action>
+	<action id="D">
+	  <when state="none" 		output="D" />
+	  <when state="compose"		next="eth" />
+	</action>
+	<action id="d">
+	  <when state="none" 		output="d" />
+	  <when state="compose"		next="eth" />
+	</action>
+	<action id="R">
+	  <when state="none" 		output="R" />
+	</action>
+	<action id="r">
+	  <when state="none" 		output="r" />
+	</action>
+	<action id="Z">
+	  <when state="none" 		output="Z" />
+	</action>
+	<action id="z">
+	  <when state="none" 		output="z" />
+	</action>
+	<action id="H">
+	  <when state="none" 		output="H" />
+	</action>
+	<action id="h">
+	  <when state="none" 		output="h" />
+	</action>
+	<action id="J">
+	  <when state="none" 		output="J" />
+	</action>
+	<action id="j">
+	  <when state="none" 		output="j" />
+	</action>
+	<action id="M">
+	  <when state="none" 		output="M" />
+	  <when state="thorn"       output="&#x2122;" />
+	</action>
+	<action id="m">
+	  <when state="none"		output="m" />
+	</action>
+	<action id="zero">
+	  <when state="none"		output="0" />
+	  <when state="stroke"		output="&#x221E;" />
+	</action>
+	<action id="less">
+	  <when state="none"		output="&#x3C;" />
+	  <when state="compose"		next="less" />
+	  <when state="diaeresis"	output="&#x201C;" />
+	  <when state="acute"		output="&#x2018;" />
+	</action>
+	<action id="greater">
+	  <when state="none"		output=">" />
+	  <when state="compose"		next="greater" />
+	  <when state="diaeresis"	output="&#x201D;" />
+	  <when state="acute"		output="&#x2019;" />
+	</action>
+	<!-- dead key actions; go straight to a state and wait for key -->
+	<action id="acute">
+	  <when state="none"		next="acute" />	  
+	</action>
+	<action id="breve">
+	  <when state="none"		next="breve" />
+	</action>
+	<action id="circum">
+	  <when state="none"		next="circum" />
+	</action>
+	<action id="diaeresis">
+	  <when state="none"		next="diaeresis" />
+	</action>
+	<action id="grave">
+	  <when state="none"		next="grave" />
+	</action>
+	<action id="nasal">
+	  <when state="none"		next="nasal" />
+	</action>
+	<!-- same as the terminator table below -->
+	<action id="space">
+	  <when state="none" 		output=" " />
+	  <when state="grave" 		output="`" />
+	  <when state="acute" 		output="&#xB4;" />
+	  <when state="circum" 		output="&#x2C6;" />
+	  <when state="nasal" 		output="&#x2DC;" />
+	  <when state="diaeresis" 	output="&#xA8;" />
+	  <when state="cedilla" 	output="&#xB8;" />
+	  <when state="macron" 		output="-" />
+	  <when state="caron" 		output="c" />
+	  <when state="ring" 		output="o" />
+	  <when state="stroke" 		output="/" />
+	  <when state="breve" 		output="(" />
+	  <when state="dot" 		output="." />
+	  <when state="alig" 		output="a" />
+	  <when state="eth" 		output="e" />
+	  <when state="thorn" 		output="t" />
+	  <when state="ssharp" 		output="s" />
+	  <when state="less"		output="&#x3C;" />
+	  <when state="greater"		output=">" />
+	</action>
+  </actions>
+  <terminators>
+	<when state="compose" 		output="" />
+	<when state="grave" 		output="`" />
+	<when state="acute" 		output="&#xB4;" />
+	<when state="circum" 		output="&#x2C6;" />
+	<when state="nasal" 		output="&#x2DC;" />
+	<when state="diaeresis" 	output="&#xA8;" />
+	<when state="cedilla" 		output="&#xB8;" />
+	<when state="macron" 		output="-" />
+	<when state="caron" 		output="c" />
+	<when state="ring"			output="o" />
+	<when state="stroke" 		output="/" />
+	<when state="breve" 		output="&#x02D8;" />
+	<when state="dot"			output="&#x02D9;" />
+	<when state="alig"			output="a" />
+	<when state="eth"			output="d" />
+	<when state="thorn"			output="t" />
+	<when state="ssharp"		output="s" />
+	<when state="less"			output="&#x3C;" />
+	<when state="greater"		output=">" />
+  </terminators>
+</keyboard>

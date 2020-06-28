@@ -162,9 +162,9 @@ install_symbols dvorak-dev
 create_evdev_xml dvorak-dev
 create_evdev_lst dvorak-dev
 # Install numeric layout
-install_symbols dvorak-num-dev
-create_evdev_xml dvorak-num-dev
-create_evdev_lst dvorak-num-dev
+# install_symbols dvorak-num-dev
+# create_evdev_xml dvorak-num-dev
+# create_evdev_lst dvorak-num-dev
 
 if [ "$KEEP" = "false" ]; then
   echo "Modified the system config."

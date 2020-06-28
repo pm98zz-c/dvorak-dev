@@ -1,0 +1,156 @@
+<action id="a">
+<when state="none" output="a" />
+</action>
+<action id="A">
+<when state="none" output="A" />
+</action>
+<action id="b">
+<when state="none" output="b" />
+</action>
+<action id="B">
+<when state="none" output="B" />
+</action>
+<action id="c">
+<when state="none" output="c" />
+</action>
+<action id="C">
+<when state="none" output="C" />
+</action>
+<action id="d">
+<when state="none" output="d" />
+</action>
+<action id="D">
+<when state="none" output="D" />
+</action>
+<action id="e">
+<when state="none" output="e" />
+</action>
+<action id="E">
+<when state="none" output="E" />
+</action>
+<action id="f">
+<when state="none" output="f" />
+</action>
+<action id="F">
+<when state="none" output="F" />
+</action>
+<action id="g">
+<when state="none" output="g" />
+</action>
+<action id="G">
+<when state="none" output="G" />
+</action>
+<action id="h">
+<when state="none" output="h" />
+</action>
+<action id="H">
+<when state="none" output="H" />
+</action>
+<action id="i">
+<when state="none" output="i" />
+</action>
+<action id="I">
+<when state="none" output="I" />
+</action>
+<action id="j">
+<when state="none" output="j" />
+</action>
+<action id="J">
+<when state="none" output="J" />
+</action>
+<action id="k">
+<when state="none" output="k" />
+</action>
+<action id="K">
+<when state="none" output="K" />
+</action>
+<action id="l">
+<when state="none" output="l" />
+</action>
+<action id="L">
+<when state="none" output="L" />
+</action>
+<action id="m">
+<when state="none" output="m" />
+</action>
+<action id="M">
+<when state="none" output="M" />
+</action>
+<action id="n">
+<when state="none" output="n" />
+</action>
+<action id="N">
+<when state="none" output="N" />
+</action>
+<action id="o">
+<when state="none" output="o" />
+</action>
+<action id="O">
+<when state="none" output="O" />
+</action>
+<action id="p">
+<when state="none" output="p" />
+</action>
+<action id="P">
+<when state="none" output="P" />
+</action>
+<action id="q">
+<when state="none" output="q" />
+</action>
+<action id="Q">
+<when state="none" output="Q" />
+</action>
+<action id="r">
+<when state="none" output="r" />
+</action>
+<action id="R">
+<when state="none" output="R" />
+</action>
+<action id="s">
+<when state="none" output="s" />
+</action>
+<action id="S">
+<when state="none" output="S" />
+</action>
+<action id="t">
+<when state="none" output="t" />
+</action>
+<action id="T">
+<when state="none" output="T" />
+</action>
+<action id="u">
+<when state="none" output="u" />
+</action>
+<action id="U">
+<when state="none" output="U" />
+</action>
+<action id="v">
+<when state="none" output="v" />
+</action>
+<action id="V">
+<when state="none" output="V" />
+</action>
+<action id="w">
+<when state="none" output="w" />
+</action>
+<action id="W">
+<when state="none" output="W" />
+</action>
+<action id="x">
+<when state="none" output="x" />
+</action>
+<action id="X">
+<when state="none" output="X" />
+</action>
+<action id="y">
+<when state="none" output="y" />
+</action>
+<action id="Y">
+<when state="none" output="Y" />
+</action>
+<action id="z">
+<when state="none" output="z" />
+</action>
+<action id="Z">
+<when state="none" output="Z" />
+</action>

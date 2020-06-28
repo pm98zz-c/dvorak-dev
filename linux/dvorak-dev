@@ -1,0 +1,75 @@
+
+/////////////////////////////// dvorak-dev START
+//
+// Developer Dvorak layout.
+//
+// Author: Pascal Morin <pm98zz.c@gmail.com>
+// Source: github
+// 
+// Based on the programmer Dvorak layout, by Roland Kaufmann.
+// http://www.kaufmann.no/roland/dvorak/
+//
+///////////////////////////////
+partial alphanumeric_keys 
+xkb_symbols "dvorak-dev" {
+    name[Group1] = "English (developer Dvorak)";
+    key.type[Group1]="EIGHT_LEVEL";
+    
+    key <AB01> {[                U0027,               U201C,          dead_acute                     ,               comma,               comma           ]};
+    key <AB02> {[                    q,                   Q,               U00E1,               U00C1,                   3,                   3           ]};
+    key <AB03> {[                    j,                   J,               U00EC,               U00CC,                   2,                   2           ]};
+    key <AB04> {[                    k,                   K,               U00ED,               U00CD,                   1,                   1           ]};
+    key <AB05> {[                    x,                   X,               U00EF,               U00EF,               U002D,               U002D           ]};
+    key <AB06> {[                    b,                   B,               U00EB,               U00CB,               U002D,               U002D           ]};
+    key <AB07> {[                    m,                   M,               U00FA,               U00DA,                   1,                   1           ]};
+    key <AB08> {[                    w,                   W,               U00FD,               U00DD,                   2,                   2           ]};
+    key <AB09> {[                    v,                   V,               U00FF,               U0178,                   3,                   3           ]};
+    key <AB10> {[                    z,                   Z,               U0133,               U0132,               comma,               comma           ]};
+    key <AC01> {[                    a,                   A,               U00E0,               U00C0,               U002E,               U002E           ]};
+    key <AC02> {[                    o,                   O,               U00F8,               U00D8,                   6,                   6           ]};
+    key <AC03> {[                    e,                   E,               U00E9,               U00C9,                   5,                   5           ]};
+    key <AC04> {[                    u,                   U,               U00E8,               U00C8,                   4,                   4           ]};
+    key <AC05> {[                    i,                   I,               U00E5,               U00C5,               U002B,               U002B           ]};
+    key <AC06> {[                    d,                   D,               U00F0,               U00D0,               U002B,               U002B           ]};
+    key <AC07> {[                    h,                   H,               U00F9,               U00D9,                   4,                   4           ]};
+    key <AC08> {[                    t,                   T,               U00FE,               U00DE,                   5,                   5           ]};
+    key <AC09> {[                    n,                   N,               U00F1,               U00D1,                   6,                   6           ]};
+    key <AC10> {[                    s,                   S,               U00DF,               U1E9E,               U002E,               U002E           ]};
+    key <AC11> {[                U002D,               U005F,               U2010,               U2013                                                     ]};
+    key <AD01> {[                U003B,               U003A,      dead_diaeresis                     ,               U0025,               U0025           ]};
+    key <AD02> {[                comma,               U003C,               U00AB,               U201C,                   9,                   9           ]};
+    key <AD03> {[                U002E,               U003E,               U00BB,               U201D,                   8,                   8           ]};
+    key <AD04> {[                    p,                   P,               U00B6,               U00A7,                   7,                   7           ]};
+    key <AD05> {[                    y,                   Y,               U00FC,               U00DC,               U002F,               U00F7           ]};
+    key <AD06> {[                    f,                   F,               U00E6,               U00C6,               U002F,               U00F7           ]};
+    key <AD07> {[                    g,                   G,               U0153,               U0152,                   7,                   7           ]};
+    key <AD08> {[                    c,                   C,               U00E7,               U00C7,                   8,                   8           ]};
+    key <AD09> {[                    r,                   R,               U00AE,               U2122,                   9,                   9           ]};
+    key <AD10> {[                    l,                   L,               U00A9,               U2116,               U0025,               U0025           ]};
+    key <AD11> {[                U002F,               U003F,               U00BF                                                                          ]};
+    key <AD12> {[                U0040,               U005E,     dead_circumflex,          dead_caron                                                     ]};
+    key <AE01> {[                U0026,               U0025                                                                                               ]};
+    key <AE02> {[                U007B,                   9,               U00A4                                                                          ]};
+    key <AE03> {[                U005B,                   7,               U00A2                     ,               U0028,               U0028           ]};
+    key <AE04> {[                U0028,                   5,               U00A5                     ,               U0029,               U0029           ]};
+    key <AE05> {[                U0024,                   3,               U20AC                     ,               U002A,               U00D7           ]};
+    key <AE06> {[                U003D,                   1,               U00A3                     ,               U003D,               U003D           ]};
+    key <AE07> {[                U002A,                   0                                          ,               U002A,               U00D7           ]};
+    key <AE08> {[                U0021,                   2,               U00A1,               U00B2,               U0028,               U0028           ]};
+    key <AE09> {[                U0029,                   4,               U00BD                     ,               U0029,               U0029           ]};
+    key <AE10> {[                U005D,                   6                                                                                               ]};
+    key <AE11> {[                U007D,                   8                                                                                               ]};
+    key <AE12> {[                U0023,               U0060,          dead_grave                                                                          ]};
+    key <BKSL> {[                U005C,               U007C,               U00B4,          dead_acute                                                     ]};
+    key <BKSP> {[            BackSpace                                                                                                                    ]};
+    key <SPCE> {[                space,               space,               U00A0,               U202F,                   0,                   0           ]};
+    key <TLDE> {[                U002B,               U007E,          dead_tilde                                                                          ]};
+
+    include "level5(modifier_mapping)"
+    include "level3(ralt_switch)"
+    include "level5(caps_switch)"
+    include "shift(both_shiftlock)"
+
+};
+/////////////////////////////// dvorak-dev END
+
