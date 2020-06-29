@@ -15,7 +15,7 @@ xkb_symbols "dvorak-dev" {
     name[Group1] = "English (developer Dvorak)";
     key.type[Group1]="EIGHT_LEVEL";
     
-    key <AB01> {[                U0027,               U201C,          dead_acute                     ,               comma,               comma           ]};
+    key <AB01> {[                U0027,               U0022,          dead_acute                     ,               comma,               comma           ]};
     key <AB02> {[                    q,                   Q,               U00E1,               U00C1,                   3,                   3           ]};
     key <AB03> {[                    j,                   J,               U00EC,               U00CC,                   2,                   2           ]};
     key <AB04> {[                    k,                   K,               U00ED,               U00CD,                   1,                   1           ]};
