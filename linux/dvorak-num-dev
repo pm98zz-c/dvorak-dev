@@ -60,7 +60,7 @@ xkb_symbols "dvorak-num-dev" {
     key <AE11> {[                                                     ]};
     key <AE12> {[                                                     ]};
     key <BKSL> {[                                                     ]};
-    key <BKSP> {[                                                     ]};
+    key <BKSP> {[            BackSpace,           BackSpace           ]};
     key <SPCE> {[                    0,                   0           ]};
     key <TLDE> {[                                                     ]};
 

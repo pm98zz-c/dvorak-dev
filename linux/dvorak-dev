@@ -61,7 +61,7 @@ xkb_symbols "dvorak-dev" {
     key <AE11> {[                U007D,                   8                                                                                               ]};
     key <AE12> {[                U0023,               U0060,          dead_grave                                                                          ]};
     key <BKSL> {[                U005C,               U007C,               U00B4,          dead_acute                                                     ]};
-    key <BKSP> {[            BackSpace                                                                                                                    ]};
+    key <BKSP> {[            BackSpace,           BackSpace,           BackSpace,           BackSpace,           BackSpace,           BackSpace           ]};
     key <SPCE> {[                space,               space,               U00A0,               U202F,                   0,                   0           ]};
     key <TLDE> {[                U002B,               U007E,          dead_tilde                                                                          ]};
 
