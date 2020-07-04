@@ -11,7 +11,7 @@ GIT_DIR=$(pwd -P)
 OWN_DIR="$GIT_DIR/mac"
 
 # Markers
-DELIMITER='	<keyMapSet id="ANSI">'
+DELIMITER='	<keyMapSet id="DeveloperDvorak">'
 SRC_FILE="$GIT_DIR/matrix.csv"
 # Main layout
 TPL_FILE="$OWN_DIR/dvorak-dev.tpl.keylayout"

@@ -1,80 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<keyboard group="126" id="-8888" name="Developer Dvorak" maxout="15">
+<keyboard group="126" id="-8888" name="DeveloperDvorak" maxout="15">
 	<layouts>
-		<layout first="0" last="6" modifiers="modifiers" mapSet="ANSI" />
-		<layout first="7" last="9" modifiers="modifiers" mapSet="ISO" />
-		<layout first="10" last="10" modifiers="modifiers" mapSet="ANSI" />
-		<layout first="11" last="11" modifiers="modifiers" mapSet="ISO" />
-		<layout first="12" last="12" modifiers="modifiers" mapSet="ANSI" />
-		<layout first="13" last="13" modifiers="modifiers" mapSet="ISO" />
-		<layout first="14" last="15" modifiers="modifiers" mapSet="ANSI" />
-		<layout first="16" last="16" modifiers="modifiers" mapSet="ISO" />
-		<layout first="17" last="17" modifiers="modifiers" mapSet="JIS" />
-		<layout first="18" last="19" modifiers="modifiers" mapSet="ANSI" />
-		<layout first="20" last="20" modifiers="modifiers" mapSet="ISO" />
-		<layout first="21" last="21" modifiers="modifiers" mapSet="JIS" />
-		<layout first="22" last="28" modifiers="modifiers" mapSet="ANSI" />
-		<layout first="29" last="29" modifiers="modifiers" mapSet="ISO" />
-		<layout first="30" last="30" modifiers="modifiers" mapSet="JIS" />
-		<layout first="31" last="31" modifiers="modifiers" mapSet="ANSI" />
-		<layout first="32" last="32" modifiers="modifiers" mapSet="ISO" />
-		<layout first="33" last="33" modifiers="modifiers" mapSet="JIS" />
-		<layout first="34" last="34" modifiers="modifiers" mapSet="ANSI" />
-		<layout first="35" last="35" modifiers="modifiers" mapSet="ISO" />
-		<layout first="36" last="36" modifiers="modifiers" mapSet="JIS" />
-		<layout first="37" last="37" modifiers="modifiers" mapSet="ANSI" />
-		<layout first="38" last="38" modifiers="modifiers" mapSet="ISO" />
-		<layout first="39" last="39" modifiers="modifiers" mapSet="JIS" />
-		<layout first="40" last="40" modifiers="modifiers" mapSet="ANSI" />
-		<layout first="41" last="41" modifiers="modifiers" mapSet="ISO" />
-		<layout first="42" last="42" modifiers="modifiers" mapSet="JIS" />
-		<layout first="43" last="44" modifiers="modifiers" mapSet="ISO" />
-		<layout first="194" last="194" modifiers="modifiers" mapSet="JIS" />
-		<layout first="195" last="195" modifiers="modifiers" mapSet="ANSI" />
-		<layout first="196" last="196" modifiers="modifiers" mapSet="ISO" />
-		<layout first="197" last="197" modifiers="modifiers" mapSet="JIS" />
-		<layout first="198" last="198" modifiers="modifiers" mapSet="ANSI" />
-		<layout first="199" last="199" modifiers="modifiers" mapSet="ISO" />
-		<layout first="200" last="201" modifiers="modifiers" mapSet="JIS" />
-		<layout first="202" last="202" modifiers="modifiers" mapSet="ANSI" />
-		<layout first="203" last="203" modifiers="modifiers" mapSet="ISO" />
-		<layout first="204" last="204" modifiers="modifiers" mapSet="ANSI" />
-		<layout first="205" last="205" modifiers="modifiers" mapSet="ISO" />
-		<layout first="206" last="207" modifiers="modifiers" mapSet="JIS" />
+		<layout first="0" last="0" modifiers="modifiers" mapSet="DeveloperDvorak" />
 	</layouts>
 	<modifierMap id="modifiers" defaultIndex="0">
-		<!-- no modifiers -->
 		<keyMapSelect mapIndex="0">
 			<modifier keys="" />
-			<modifier keys="command anyShift? caps?" />
 		</keyMapSelect>
-		<!-- shift -->
 		<keyMapSelect mapIndex="1">
 			<modifier keys="anyShift" />
 		</keyMapSelect>
 		<keyMapSelect mapIndex="2">
-			<modifier keys="caps" />
+			<modifier keys="anyOption" />
 		</keyMapSelect>
 		<keyMapSelect mapIndex="3">
-			<modifier keys="anyShift caps" />
-		</keyMapSelect>
-		<!-- option -->
-		<keyMapSelect mapIndex="4">
-			<modifier keys="anyOption" />
-			<modifier keys="anyOption anyShift caps" />
-			<modifier keys="anyOption command anyShift? caps?" />
-		</keyMapSelect>
-		<!-- option + shift -->
-		<keyMapSelect mapIndex="5">
 			<modifier keys="anyOption anyShift" />
 		</keyMapSelect>
-		<keyMapSelect mapIndex="6">
-			<modifier keys="anyOption caps" />
+		<keyMapSelect mapIndex="4">
+			<modifier keys="caps" />
 		</keyMapSelect>
-		<!-- control + anything but command -->
+		<keyMapSelect mapIndex="5">
+			<modifier keys="caps anyShift" />
+		</keyMapSelect>
+		<keyMapSelect mapIndex="6">
+			<modifier keys="caps anyOption" />
+		</keyMapSelect>
 		<keyMapSelect mapIndex="7">
-			<modifier keys="anyControl anyShift? caps? anyOption?" />
+			<modifier keys="caps anyOption anyShift" />
 		</keyMapSelect>
 	</modifierMap>
 	<keyMapSet id="static">
@@ -250,7 +203,6 @@
 			<key code="126" output="&#x001E;" />
 		</keyMap>
 		<keyMap index="3">
-
 			<key code="52" output="&#x0003;" />
 			<key code="53" output="&#x001B;" />
 			<key code="65" output="." />
@@ -537,7 +489,7 @@
 			<key code="126" output="&#x001E;" />
 		</keyMap>
 	</keyMapSet>
-	<keyMapSet id="ANSI">
+	<keyMapSet id="DeveloperDvorak">
 <keyMap index="0" baseMapSet="static" baseIndex="0">
 		<key code="6" output="&#x0027;"/>
 		<key code="7" action="q"/>
@@ -811,74 +763,6 @@
 		<key code="51" output="&#x08;"/>
 		<key code="49" output="0"/>
 </keyMap>
-	</keyMapSet>
-	<keyMapSet id="ISO">
-		<keyMap index="0" baseMapSet="ANSI" baseIndex="0">
-		</keyMap>
-		<keyMap index="1" baseMapSet="ANSI" baseIndex="1">
-		</keyMap>
-		<keyMap index="2" baseMapSet="ANSI" baseIndex="2">
-		</keyMap>
-		<keyMap index="3" baseMapSet="ANSI" baseIndex="3">
-		</keyMap>
-		<keyMap index="4" baseMapSet="ANSI" baseIndex="4">
-		</keyMap>
-		<keyMap index="5" baseMapSet="ANSI" baseIndex="5">
-		</keyMap>
-		<keyMap index="6" baseMapSet="ANSI" baseIndex="6">
-		</keyMap>
-		<keyMap index="7" baseMapSet="ANSI" baseIndex="7">
-		</keyMap>
-	</keyMapSet>
-	<keyMapSet id="JIS">
-		<keyMap index="0" baseMapSet="ANSI" baseIndex="0">
-			<key code="94" output="" />
-			<key code="95" output="" />
-			<key code="102" output="" />
-			<key code="104" output="" />
-		</keyMap>
-		<keyMap index="1" baseMapSet="ANSI" baseIndex="1">
-			<key code="94" output="" />
-			<key code="95" output="" />
-			<key code="102" output="" />
-			<key code="104" output="" />
-		</keyMap>
-		<keyMap index="2" baseMapSet="ANSI" baseIndex="2">
-			<key code="94" output="" />
-			<key code="95" output="" />
-			<key code="102" output="" />
-			<key code="104" output="" />
-		</keyMap>
-		<keyMap index="3" baseMapSet="ANSI" baseIndex="3">
-			<key code="94" output="" />
-			<key code="95" output="" />
-			<key code="102" output="" />
-			<key code="104" output="" />
-		</keyMap>
-		<keyMap index="4" baseMapSet="ANSI" baseIndex="4">
-			<key code="94" output="" />
-			<key code="95" output="" />
-			<key code="102" output="" />
-			<key code="104" output="" />
-		</keyMap>
-		<keyMap index="5" baseMapSet="ANSI" baseIndex="5">
-			<key code="94" output="" />
-			<key code="95" output="" />
-			<key code="102" output="" />
-			<key code="104" output="" />
-		</keyMap>
-		<keyMap index="6" baseMapSet="ANSI" baseIndex="6">
-			<key code="94" output="" />
-			<key code="95" output="" />
-			<key code="102" output="" />
-			<key code="104" output="" />
-		</keyMap>
-		<keyMap index="7" baseMapSet="ANSI" baseIndex="7">
-			<key code="94" output="" />
-			<key code="95" output="" />
-			<key code="102" output="" />
-			<key code="104" output="" />
-		</keyMap>
 	</keyMapSet>
 	<actions>
 		<action id="a">
