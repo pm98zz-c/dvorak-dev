@@ -15,7 +15,7 @@ DELIMITER='	<keyMapSet id="ANSI">'
 SRC_FILE="$GIT_DIR/matrix.csv"
 # Main layout
 TPL_FILE="$OWN_DIR/dvorak-dev.tpl.keylayout"
-DEST_FILE="$OWN_DIR/dvorak-dev.keylayout"
+DEST_FILE="$OWN_DIR/DeveloperDvorak.bundle/Contents/Resources/DeveloperDvorak.keylayout"
 TMP_FILE="/tmp/dvorak-dev.tmp"
 # Numeric layout
 NUM_TPL_FILE="$OWN_DIR/dvorak-num-dev.tpl.keylayout"

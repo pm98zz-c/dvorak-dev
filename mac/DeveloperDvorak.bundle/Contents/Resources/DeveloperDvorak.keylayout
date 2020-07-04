@@ -592,7 +592,7 @@
 		<key code="93" output="&#x002B;"/>
 </keyMap>
 <keyMap index="1" baseMapSet="static" baseIndex="1">
-		<key code="6" output="&#x201C;"/>
+		<key code="6" output="&#x0022;"/>
 		<key code="7" action="Q"/>
 		<key code="8" action="J"/>
 		<key code="9" action="K"/>
