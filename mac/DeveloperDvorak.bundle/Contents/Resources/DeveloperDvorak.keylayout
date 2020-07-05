@@ -32,6 +32,8 @@
 	</modifierMap>
 	<keyMapSet id="static">
 		<keyMap index="0">
+			<key code="36" output="&#x000D;"/>
+			<key code="48" output="&#x0009;"/>
 			<key code="52" output="&#x0003;" />
 			<key code="53" output="&#x001B;" />
 			<key code="65" output="." />
@@ -89,6 +91,8 @@
 			<key code="126" output="&#x001E;" />
 		</keyMap>
 		<keyMap index="1">
+			<key code="36" output="&#x000D;"/>
+			<key code="48" output="&#x0009;"/>
 			<key code="52" output="&#x0003;" />
 			<key code="53" output="&#x001B;" />
 			<key code="65" output="." />
@@ -146,6 +150,8 @@
 			<key code="126" output="&#x001E;" />
 		</keyMap>
 		<keyMap index="2">
+			<key code="36" output="&#x000D;"/>
+			<key code="48" output="&#x0009;"/>
 			<key code="52" output="&#x0003;" />
 			<key code="53" output="&#x001B;" />
 			<key code="65" output="." />
@@ -203,6 +209,8 @@
 			<key code="126" output="&#x001E;" />
 		</keyMap>
 		<keyMap index="3">
+			<key code="36" output="&#x000D;"/>
+			<key code="48" output="&#x0009;"/>
 			<key code="52" output="&#x0003;" />
 			<key code="53" output="&#x001B;" />
 			<key code="65" output="." />
@@ -260,6 +268,8 @@
 			<key code="126" output="&#x001E;" />
 		</keyMap>
 		<keyMap index="4">
+			<key code="36" output="&#x000D;"/>
+			<key code="48" output="&#x0009;"/>
 			<key code="52" output="&#x0003;" />
 			<key code="53" output="&#x001B;" />
 			<key code="65" output="." />
@@ -317,6 +327,8 @@
 			<key code="126" output="&#x001E;" />
 		</keyMap>
 		<keyMap index="5">
+			<key code="36" output="&#x000D;"/>
+			<key code="48" output="&#x0009;"/>
 			<key code="52" output="&#x0003;" />
 			<key code="53" output="&#x001B;" />
 			<key code="65" output="." />
@@ -374,6 +386,8 @@
 			<key code="126" output="&#x001E;" />
 		</keyMap>
 		<keyMap index="6">
+			<key code="36" output="&#x000D;"/>
+			<key code="48" output="&#x0009;"/>
 			<key code="52" output="&#x0003;" />
 			<key code="53" output="&#x001B;" />
 			<key code="65" output="." />
@@ -431,6 +445,8 @@
 			<key code="126" output="&#x001E;" />
 		</keyMap>
 		<keyMap index="7">
+			<key code="36" output="&#x000D;"/>
+			<key code="48" output="&#x0009;"/>	
 			<key code="51" output="&#x0008;" />
 			<key code="52" output="&#x0003;" />
 			<key code="53" output="&#x001B;" />

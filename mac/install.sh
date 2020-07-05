@@ -6,6 +6,6 @@ OWN_DIR=$(pwd -P)
 
 ROOT_DIR="/Library/Keyboard Layouts"
 
-cp -r "$OWN_DIR/Developer Dvorak.bundle" "$ROOT_DIR"
+cp -r "$OWN_DIR/DeveloperDvorak.bundle" "$ROOT_DIR"
 
-/usr/bin/SetFile -a B "$ROOT_DIR/Developer Dvorak.bundle"
+/usr/bin/SetFile -a B "$ROOT_DIR/DeveloperDvorak.bundle"
