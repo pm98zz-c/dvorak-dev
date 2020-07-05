@@ -13,7 +13,7 @@
 		<key>TICapsLockLanguageSwitchCapable</key>
 		<false/>
 		<key>TISInputSourceID</key>
-		<string>com.apple.keyboardlayout.DeveloperDvorak</string>
+		<string>com.apple.keyboardlayout.DeveloperDvorak.developerdvorak</string>
 		<key>TISIntendedLanguage</key>
 		<string>en</string>
 	</dict>
