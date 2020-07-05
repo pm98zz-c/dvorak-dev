@@ -35,11 +35,11 @@ It is available in two fashions:
 - as the Level_5 mode within the Developer Dvorak layout. This let you assign whatever key you wish to trigger that level (usually the bottom left "greater than" key on a euro keyboard).
 - as a separate layout (Developer Dvorak - NUM only). This is useful if you don't have a key you can dedicate to trigger the 5th level. You can instead activate both layouts and use your standard keyboard shortcut to switch from one to the other.
 
-## Linux
+## Installation
 
-### Installation
+### Linux
 
-*There is currently only a Linux version, other platform will follow if there is enough interest.*
+*There is currently no Windows version, it will follow if there is enough interest.*
 
 Note: due to the way XKB works, there is no sane way to install a layout permanently without altering some system files. The install script below has only been tested on Debian, but should work for other platforms too.
 
@@ -48,9 +48,10 @@ Note: due to the way XKB works, there is no sane way to install a layout permane
 Because the install script has not been extensively tested, it defaults to a "trial" mode: instead of making the changes permanent, it will revert the changes it made on exit.
 
 In a terminal:
-- clone this repository: `git clone git@github.com:pm98zz-c/dvorak-dev.git`
-- make the install script executable: `chmod +x install.sh`
-- execute it: `sudo ./install.sh`
+- clone this repository: `git clone https://github.com/pm98zz-c/dvorak-dev.git`
+- go the cloned folder: `cd dvorak-dev`
+- make the install script executable: `chmod +x linux/install.sh`
+- execute it: `sudo ./linux/install.sh`
 
 The script will wait for input, and pressing "Enter" will just undo the changes it made. Let it run while you use the new layout.
 To actually use the layout, you can either:
@@ -88,10 +89,21 @@ Technically, this means:
 You can of course override any of those, and set them to anything you feel more comfortable to. Options are too many to be listed, and there a different ways to set those options (editing /etc/default/keyboard, through `xkmsetmap`, with `dpkg-reconfigure keyboard-configuration`, ... ).
 If you're using Gnome, have a look at the "Additional Keyboard options" in the gnome-tweaks tool. For example, I've set mine to "lock" the numpad mode when both CapsLock and the "Greater" key are pressed.
 
+### Mac Os
+
+In a terminal:
+- clone this repository: `git clone https://github.com/pm98zz-c/dvorak-dev.git`
+- go the cloned folder: `cd dvorak-dev`
+- make the install script executable: `chmod +x mac/install.sh`
+To install system-wide, run the script as sudo.
+- execute it: `sudo ./mac/install.sh`
+Or, to install for your user only, run it without sudo.
+- execute it: `./mac/install.sh`
+
 ## Learning curve
 
 This is only a slight variation of the original Programmer Dvorak, so if you're already familiar with it - or with the standard Dvorak layout, you should just feel at home and be comfortable within hours.
-If you are using QWERTY/AZERTY, it's a different story. It won't be easier nor more difficult than learning to [touch type](https://en.wikipedia.org/wiki/Touch_typing) with any other specialized layout...
+If you are using QWERTY/AZERTY, it's a different story. It won't be easier (nor more difficult) than learning to [touch type](https://en.wikipedia.org/wiki/Touch_typing) with any other specialized layout like Dvorak, Colemak or other...
 
 ## Feedback and contributions
 
