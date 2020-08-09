@@ -56,7 +56,7 @@ convert_to_code(){
       STRING="-1"
     ;;
     'comma')
-      STRING="-1"
+      STRING="002C"
     ;;
     'Space')
       STRING="0020"
@@ -83,7 +83,6 @@ convert_to_code(){
 # @param $3 string path to output file.
 parse_line(){
   KEY=$(echo "$1" | cut -d ',' -f11 )
-  echo $KEY
   if [ -z "$KEY" ] || [ "$KEY" = "NULL" ]; then
     return
   fi
@@ -137,6 +136,8 @@ generate_layouts(){
     ;;
     esac
   done < "$1"
+  # Convert line ending.
+  unix2dos "$2"
 }
 
 # Remove target files

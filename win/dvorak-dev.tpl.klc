@@ -1,4 +1,4 @@
-KBD	devdvor	"DeveloperDvorak"
+KBD	devdvor	"Developer Dvorak"
 
 COPYRIGHT	"Pascal Morin <pm98zz.c@gmail.com>"
 
@@ -20,10 +20,82 @@ SHIFTSTATE
 6	//Column 7 : AltGr
 7	//Column 8 : Shft AltGr
 
-LAYOUT		;an extra '@' at the end is a dead key
+LAYOUT
 
 // MATRIX
+56                OEM_102                SGCap                 002B                007E                  -1                  -1
+-1 -1 0                   -1                  -1
 
+DEADKEY	005e
+
+0061	00e2	// a -> â
+0065	00ea	// e -> ê
+0075	00fb	// u -> û
+0069	00ee	// i -> î
+006f	00f4	// o -> ô
+0041	00c2	// A -> Â
+0045	00ca	// E -> Ê
+0055	00db	// U -> Û
+0049	00ce	// I -> Î
+004f	00d4	// O -> Ô
+0020	005e	//   -> ^
+
+DEADKEY	0027
+
+0063	00e7	// c -> ç
+0061	00e1	// a -> á
+0065	00e9	// e -> é
+0075	00fa	// u -> ú
+0069	00ed	// i -> í
+0079	00fd	// y -> ý
+006f	00f3	// o -> ó
+0043	00c7	// C -> Ç
+0041	00c1	// A -> Á
+0045	00c9	// E -> É
+0055	00da	// U -> Ú
+0049	00cd	// I -> Í
+0059	00dd	// Y -> Ý
+004f	00d3	// O -> Ó
+0020	0027	//   -> '
+
+DEADKEY	0022
+
+0061	00e4	// a -> ä
+0065	00eb	// e -> ë
+0075	00fc	// u -> ü
+0069	00ef	// i -> ï
+0079	00ff	// y -> ÿ
+006f	00f6	// o -> ö
+0041	00c4	// A -> Ä
+0045	00cb	// E -> Ë
+0055	00dc	// U -> Ü
+0049	00cf	// I -> Ï
+004f	00d6	// O -> Ö
+0020	0022	//   -> "
+
+DEADKEY	0060
+
+0061	00e0	// a -> à
+0065	00e8	// e -> è
+0075	00f9	// u -> ù
+0069	00ec	// i -> ì
+006f	00f2	// o -> ò
+0041	00c0	// A -> À
+0045	00c8	// E -> È
+0055	00d9	// U -> Ù
+0049	00cc	// I -> Ì
+004f	00d2	// O -> Ò
+0020	0060	//   -> `
+
+DEADKEY	007e
+
+006e	00f1	// n -> ñ
+0061	00e3	// a -> ã
+006f	00f5	// o -> õ
+004e	00d1	// N -> Ñ
+0041	00c3	// A -> Ã
+004f	00d5	// O -> Õ
+0020	007e	//   -> ~
 
 KEYNAME
 
