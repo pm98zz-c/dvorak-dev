@@ -31,9 +31,9 @@ xkb_symbols "dvorak-dev" {
     key <AC04> {[                    u,                   U,               U00E8,               U00C8,                   4,                   4           ]};
     key <AC05> {[                comma,               U003C,               U00AB,               U201C,               U002B,               U002B           ]};
     key <AC06> {[                U002E,               U003E,               U00BB,               U201D,               U002B,               U002B           ]};
-    key <AC07> {[                    h,                   H,               U00F9,               U00D9,                   4,                   4           ]};
+    key <AC07> {[                    o,                   O,               U00F8,               U00D8,                   4,                   4           ]};
     key <AC08> {[                    t,                   T,               U00FE,               U00DE,                   5,                   5           ]};
-    key <AC09> {[                    o,                   O,               U00F8,               U00D8,                   6,                   6           ]};
+    key <AC09> {[                    h,                   H,               U00F9,               U00D9,                   6,                   6           ]};
     key <AC10> {[                    n,                   N,               U00F1,               U00D1,               U002E,               U002E           ]};
     key <AC11> {[                    x,                   X,               U00EF,               U00EF                                                     ]};
     key <AD01> {[                    i,                   I,               U00E5,               U00C5,               U0025,               U0025           ]};
