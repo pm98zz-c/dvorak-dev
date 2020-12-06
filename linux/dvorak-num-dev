@@ -8,7 +8,7 @@
 // Source: github
 // 
 //
-//
+///////////////////////////////
 partial alphanumeric_keys 
 xkb_symbols "dvorak-num-dev" {
     include "us(dvorak-dev)"
