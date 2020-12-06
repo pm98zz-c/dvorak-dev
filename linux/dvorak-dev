@@ -9,7 +9,7 @@
 // Based on the programmer Dvorak layout, by Roland Kaufmann.
 // http://www.kaufmann.no/roland/dvorak/
 //
-///////////////////////////////
+//
 partial alphanumeric_keys 
 xkb_symbols "dvorak-dev" {
     name[Group1] = "English (developer Dvorak)";
@@ -29,8 +29,8 @@ xkb_symbols "dvorak-dev" {
     key <AC02> {[                    s,                   S,               U00DF,               U1E9E,                   6,                   6           ]};
     key <AC03> {[                    e,                   E,               U00E9,               U00C9,                   5,                   5           ]};
     key <AC04> {[                    u,                   U,               U00E8,               U00C8,                   4,                   4           ]};
-    key <AC05> {[                comma,               U003C,               U00AB,               U201C,               U002B,               U002B           ]};
-    key <AC06> {[                U002E,               U003E,               U00BB,               U201D,               U002B,               U002B           ]};
+    key <AC05> {[                comma,               U003C,               U002F,               U201C,               U002B,               U002B           ]};
+    key <AC06> {[                U002E,               U003E,               U005C,               U201D,               U002B,               U002B           ]};
     key <AC07> {[                    o,                   O,               U00F8,               U00D8,                   4,                   4           ]};
     key <AC08> {[                    t,                   T,               U00FE,               U00DE,                   5,                   5           ]};
     key <AC09> {[                    h,                   H,               U00F9,               U00D9,                   6,                   6           ]};
@@ -47,7 +47,7 @@ xkb_symbols "dvorak-dev" {
     key <AD09> {[                    r,                   R,               U00AE,               U2122,                   9,                   9           ]};
     key <AD10> {[                    l,                   L,               U00A9,               U2116,               U0025,               U0025           ]};
     key <AD11> {[                    z,                   Z,               U0133,               U0132                                                     ]};
-    key <AD12> {[                U002F,               U003F,               U00BF                                                                          ]};
+    key <AD12> {[                U00AB,               U003F,               U00BF                                                                          ]};
     key <AE01> {[                U0026,               U0025                                                                                               ]};
     key <AE02> {[                U007B,                   9,               U00A4                                                                          ]};
     key <AE03> {[                U005B,                   7,               U00A2                     ,               U0028,               U0028           ]};
@@ -60,7 +60,7 @@ xkb_symbols "dvorak-dev" {
     key <AE10> {[                U005D,                   6                                                                                               ]};
     key <AE11> {[                U007D,                   8                                                                                               ]};
     key <AE12> {[                U0023,               U0060,          dead_grave                                                                          ]};
-    key <BKSL> {[                U005C,               U007C,               U00B4,          dead_acute                                                     ]};
+    key <BKSL> {[                U00BB,               U007C,               U00B4,          dead_acute                                                     ]};
     key <BKSP> {[            BackSpace,           BackSpace,           BackSpace,           BackSpace,           BackSpace,           BackSpace           ]};
     key <SPCE> {[                space,               space,               U00A0,               U202F,                   0,                   0           ]};
     key <TLDE> {[                U002B,               U007E,          dead_tilde                                                                          ]};
